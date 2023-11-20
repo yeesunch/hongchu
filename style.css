@@ -17,6 +17,9 @@ body {
   background-color: #000000; /* Black */
 }
 
+
+
+
 /**
  * Links
  */
@@ -35,10 +38,25 @@ a:hover {
 #sideNav {
   background-color: #000000; /* Black */
   color: #DAA520; /* Metallic Gold */
+  width: 300px; /* Adjust this value as needed */
 }
 small {
   font-size: 75%;
 }
+
+/* Default width for smaller devices */
+#sideNav {
+  width: 200px; /* Narrower width for mobile devices */
+}
+
+/* Wider width for larger screens */
+@media (min-width: 768px) {
+  #sideNav {
+    width: 300px; /* Wider for larger screens */
+  }
+}
+
+
 
 /**
  * Headings
