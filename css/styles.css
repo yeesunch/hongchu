@@ -32,6 +32,8 @@
   --danger: #dc3545;
   --light: #f8f9fa;
   --dark: #343a40;
+  --metal: #DAA520;
+  --midnight: #191970;
   --breakpoint-xs: 0;
   --breakpoint-sm: 576px;
   --breakpoint-md: 768px;
@@ -159,7 +161,7 @@ sup {
 }
 
 a {
-  color: #F694C1;
+  color: #DAA520;
   text-decoration: none;
   background-color: transparent;
 }
@@ -363,7 +365,7 @@ h1, h2, h3, h4, h5, h6,
   font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
   line-height: 1.2;
-  color: #343a40;
+  color: #DAA520;
 }
 
 h1, .h1 {
@@ -435,7 +437,7 @@ small,
 mark,
 .mark {
   padding: 0.2em;
-  background-color: #fcf8e3;
+  background-color: #191970;
 }
 
 .list-unstyled {
@@ -468,7 +470,7 @@ mark,
 .blockquote-footer {
   display: block;
   font-size: 80%;
-  color: #6c757d;
+  color: #DAA520;
 }
 .blockquote-footer::before {
   content: "— ";
@@ -517,7 +519,7 @@ kbd {
   padding: 0.2rem 0.4rem;
   font-size: 87.5%;
   color: #fff;
-  background-color: #212529;
+  background-color: #191970;
   border-radius: 0.2rem;
 }
 kbd kbd {
