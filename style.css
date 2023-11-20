@@ -12,7 +12,9 @@ body {
   font-weight: 400;
   font-family: "Open Sans", sans-serif;
   /*font-family: "Roboto", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;*/
-  color: #FFFFFF;
+  /*color: #FFFFFF;*/
+  color: #DAA520; /* Metallic Gold */
+  background-color: #000000; /* Black */
 }
 
 /**
@@ -21,12 +23,19 @@ body {
 a {
   font-weight: normal;
   text-decoration: none; 
-  color:#EF6D3D;
+  color:#DAA520;
 }
 a:focus {
   outline: thin dotted;
 }
+a:hover {
+  color: #000000; /* Black */
+}
 
+#sideNav {
+  background-color: #000000; /* Black */
+  color: #DAA520; /* Metallic Gold */
+}
 small {
   font-size: 75%;
 }
@@ -40,6 +49,7 @@ h3,
 h4,
 h5,
 h6 {
+  color: #DAA520; /* Metallic Gold */
   line-height: 1;
   text-rendering: optimizeLegibility; /*  voodoo to enable ligatures and kerning | https://developer.mozilla.org/en-US/docs/CSS/text-rendering */
   margin-top: 0;
@@ -104,7 +114,7 @@ body {
 header, #content, footer { 
   background: rgba(0,0,0,.8); 
   padding:25px;
-  color:#FFFFFF; 
+  color:#000000; 
 }
 
 /* Menu Links */
@@ -120,14 +130,11 @@ ul.main-menu li a {
   margin-right:20px;
   font-size:2.0rem;
   border-bottom: solid transparent 3px;
-  color:#cfd2da;
+  color: #DAA520; /* Metallic Gold */
 }
-ul.main-menu li a:hover {
-  color:#FFFFFF;
-}
-ul.main-menu li a.active {
-  color:#FFFFFF;
-  border-bottom-color:#EF6D3D;
+ul.main-menu li a:hover, ul.main-menu li a.active {
+  color: #000000; /* Black */
+  border-bottom-color: #DAA520; /* Metallic Gold for the active underline */
 }
 
 /* Utility classes */
